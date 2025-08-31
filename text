@@ -1,0 +1,21 @@
+wordpress-starter/
+│
+├── wp-content/
+│   ├── themes/
+│   │   └── astra/              # SEO friendly theme
+│   ├── plugins/
+│   │   ├── rank-math/          # SEO plugin
+│   │   ├── polylang/           # Hindi + English support
+│   │   ├── elementor/          # Page builder
+│   │   ├── litespeed-cache/    # Speed optimization
+│   │   └── wordfence/          # Security
+│   └── uploads/                # Media (demo images)
+│
+├── demo-content/
+│   ├── demo-posts-en.xml       # English demo posts (10 sample)
+│   ├── demo-posts-hi.xml       # Hindi demo posts (10 sample)
+│   └── menus-widgets.json      # Menu + sidebar structure
+│
+├── wp-config-sample.php        # Pre-configured sample
+├── readme.md                   # Instructions
+└── .htaccess                   # SEO + security rules
