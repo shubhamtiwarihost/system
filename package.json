@@ -1,0 +1,14 @@
+{
+  "name": "astra-theme-dev",
+  "private": true,
+  "description": "Local WordPress development environment for the Astra theme",
+  "scripts": {
+    "wp-env": "wp-env",
+    "start": "wp-env start --runtime=playground",
+    "stop": "wp-env stop",
+    "status": "wp-env status"
+  },
+  "devDependencies": {
+    "@wordpress/env": "^10.22.0"
+  }
+}
