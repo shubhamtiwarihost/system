@@ -1,0 +1,17 @@
+{
+  "name": "Astra WordPress Theme",
+  "install": "./.cursor/scripts/cloud-agent-install.sh",
+  "start": "./.cursor/scripts/cloud-agent-start.sh",
+  "terminals": [
+    {
+      "name": "wordpress",
+      "command": "npx wp-env start --runtime=playground"
+    }
+  ],
+  "ports": [
+    {
+      "name": "wordpress",
+      "port": 8888
+    }
+  ]
+}

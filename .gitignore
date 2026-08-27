@@ -1,0 +1,8 @@
+node_modules/
+
+# Restored during install from the matching WordPress.org Astra release.
+inc/
+admin/
+assets/
+languages/
+template-parts/

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/wp-env.json",
+  "phpVersion": "8.2",
+  "port": 8888,
+  "mappings": {
+    "wp-content/themes/astra": "."
+  },
+  "lifecycleScripts": {
+    "afterStart": "./.cursor/scripts/activate-astra.sh"
+  },
+  "config": {
+    "WP_DEBUG": true,
+    "SCRIPT_DEBUG": true
+  }
+}
